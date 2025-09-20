@@ -8,7 +8,7 @@ body {
   background-color: #f9f9f9;
   color: #333;
   @apply bg-gray-100; /* fallback color */
-  background: url('/bg.jpeg') no-repeat center center fixed;
+  background: url('/bg.jpg') no-repeat center center fixed;
   background-size: cover;
   position: relative;
 }

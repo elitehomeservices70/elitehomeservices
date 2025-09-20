@@ -76,7 +76,7 @@ export default function Header() {
               to={item.path}
               onClick={() => setMenuOpen(false)}
               className={`
-                text-xl transition-all duration-300 hover:text-blue-600 hover:translate-x-2
+                text-xl transition-all duration-500 hover:text-blue-600 hover:translate-x-2
                 transform transition-transform duration-500 ease-out
                 ${
                   menuOpen
