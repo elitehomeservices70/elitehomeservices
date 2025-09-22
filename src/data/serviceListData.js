@@ -6,9 +6,9 @@ const serviceListData = [
     img: "../repairMain.jpg",
   },
   {
-    id: "new-services",
-    title: "New Services",
-    img: "../repairMain.jpg",
+    id: "air_duct_and_chimney_cleaning_services",
+    title: "Air Duct and Chimney Cleaning Services",
+    img: "../AirDuct.jpg",
   },
 ];
 

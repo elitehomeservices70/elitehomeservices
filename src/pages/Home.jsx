@@ -1,14 +1,18 @@
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../components/Hero";
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
-    <div className="my-4 bg-white/80 backdrop-blur-md shadow-xl rounded-2xl p-4 mx-4">
-      <PageWrapper>
-        <h2 className="text-5xl font-bold mb-4 text-blue-900 animate-fadeIn">
-          Welcome to Elite Home Services
-        </h2>
-        <div className=" ">
-          <p className="text-black text-lg font-semibold max-w-2xl mx-auto ">
+    <>
+      {/* Main container (intro + hero) */}
+      <div className="my-6 bg-white/80 backdrop-blur-md shadow-2xl rounded-2xl p-8 mx-4">
+        <PageWrapper>
+          <h2 className="text-4xl sm:text-5xl font-bold mb-8 text-blue-900 animate-fadeIn text-center">
+            Welcome to Elite Home Services
+          </h2>
+
+          <p className="text-gray-800 text-base sm:text-lg font-medium max-w-3xl mx-auto mb-12 text-center leading-relaxed">
             Elite Home Services is your trusted partner for expert home
             maintenance and repair solutions. Our team of skilled technicians
             provides top-notch services to ensure your home operates smoothly
@@ -19,9 +23,45 @@ export default function Home() {
             the Elite difference and contact us today to schedule an appointment
             or learn more about our services.
           </p>
+        </PageWrapper>
+
+        {/* Hero Section */}
+        <Hero />
+      </div>
+
+      {/* Contact Info Container - outside main */}
+      <div className="my-8 mx-4 bg-gray-50 rounded-2xl shadow-lg p-6 sm:p-8">
+        <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">
+          Get in Touch
+        </h3>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+          {/* Phone */}
+          <a
+            href="tel:5551234567"
+            className="flex items-center bg-white px-6 py-4 rounded-xl shadow-md w-full sm:w-auto hover:shadow-lg transition duration-300"
+          >
+            <div className="bg-green-600 p-3 rounded-full mr-4 flex-shrink-0">
+              <i className="fas fa-phone text-green-100 text-lg sm:text-xl"></i>
+            </div>
+            <span className="text-gray-700 text-base sm:text-lg font-semibold">
+              (555) 123-4567
+            </span>
+          </a>
+
+          {/* Email */}
+          <a
+            href="mailto:elitehomeservices70@gmail.com"
+            className="flex items-center bg-white px-6 py-4 rounded-xl shadow-md w-full sm:w-auto hover:shadow-lg transition duration-300"
+          >
+            <div className="bg-red-600 p-3 rounded-full mr-4 flex-shrink-0">
+              <i className="fas fa-envelope text-white text-xl"></i>
+            </div>
+            <span className="text-gray-700 text-base sm:text-lg font-semibold break-words whitespace-normal flex-1 min-w-0 text-left">
+              elitehomeservices70@gmail.com
+            </span>
+          </a>
         </div>
-      </PageWrapper>
-      <Hero />
-    </div>
+      </div>
+    </>
   );
 }

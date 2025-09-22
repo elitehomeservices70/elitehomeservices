@@ -19,3 +19,7 @@ body::before {
   background: rgba(48, 19, 19, 0.4); /* overlay for lower transparency */
   z-index: -1;
 }
+.text-outline {
+  -webkit-text-stroke: 0.4px white;
+  color: rgb(27, 27, 106); /* fill color */
+}

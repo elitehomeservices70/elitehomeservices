@@ -1,7 +1,14 @@
 // src/data/serviceDetailsData.js
 
+import { image } from "framer-motion/client";
+
 const serviceDetailsData = {
   garage_door_repair_services: [
+    {
+      title: "GARAGE DOOR REPAIR SERVICES",
+      description:
+        "Get expert garage door repair and maintenance services from Elite Home Services. Our skilled technicians fix broken springs, faulty openers, damaged panels, and misaligned tracks, ensuring smooth and secure operation. With prompt, reliable, and professional service, we restore functionality and boost curb appeal. Trust us for top-quality garage door solutions, from quick fixes to full replacements. Contact us today for a hassle-free experience!",
+    },
     {
       title: "REPAIR OF COMMERCIAL GARAGE DOORS",
       description:
@@ -49,6 +56,37 @@ const serviceDetailsData = {
       description:
         "Damaged or misaligned garage door tracks can cause frustrating issues with door operation. At Elite Home Services, our experts provide prompt and reliable track repair services to get your garage door running smoothly. We identify and fix track problems, ensuring safe and efficient door operation. Contact us today for professional track repair solutions.",
       img: "/trackrepairs.jpg",
+    },
+  ],
+  air_duct_and_chimney_cleaning_services: [
+    {
+      description:
+        "Elite Home Services offers comprehensive solutions for a healthier and safer home. Our expert technicians provide professional air duct cleaning services to remove dust, debris, and allergens, improving indoor air quality and HVAC efficiency. We also specialize in chimney cleaning and maintenance, thoroughly inspecting and cleaning chimneys, fireplaces, and vents to prevent creosote buildup and potential hazards. Contact us today to schedule your air duct and chimney cleaning services and enjoy a cleaner, healthier, and more comfortable living space.",
+    },
+    {
+      title: "AIR DUCT REPAIRS",
+      description:
+        "Don't let damaged or leaky air ducts compromise your home's comfort and efficiency. Elite Home Services offers expert air duct repair services to seal leaks, fix damaged sections, and restore your HVAC system's performance. Our skilled technicians use high-quality materials and advanced techniques to ensure durable repairs that improve indoor air quality and reduce energy bills. Contact us today to schedule your air duct repair service and breathe easy knowing your system is working optimally.",
+
+      img: "/airductrepair.jpg",
+    },
+    {
+      title: "AIR DUCT INSTALLATION",
+      description:
+        "Upgrade your home's comfort and efficiency with Elite Home Services' expert air duct installation services. Our skilled technicians design and install custom air duct systems that optimize airflow, reduce energy bills, and improve indoor air quality. From design to installation, we ensure a seamless process that meets your specific needs and budget. Contact us today to schedule your air duct installation service and enjoy a healthier, more comfortable living space.",
+      img: "/airductinstallation.jpg",
+    },
+    {
+      title: "DRYER VENTS",
+      description:
+        "Improve your home's safety and efficiency with Elite Home Services' expert dryer vent cleaning and repair services. Our skilled technicians remove lint buildup, debris, and blockages from your dryer vents, reducing the risk of fires and improving drying times. With our professional dryer vent services, you can enjoy peace of mind, lower energy bills, and extended appliance lifespan. Contact us today to schedule your dryer vent cleaning and repair service.",
+      img: "/dryer-vent.jpg",
+    },
+    {
+      title: "CHIMNEY CLEANING",
+      description:
+        "Keep your home safe and warm with Elite Home Services' professional chimney cleaning services. Our experienced technicians thoroughly clean and inspect chimneys, fireplaces, and vents to remove creosote buildup, soot, and debris, reducing the risk of chimney fires and carbon monoxide poisoning. With our expert chimney cleaning services, you can enjoy a cozy, worry-free winter. Contact us today to schedule your chimney cleaning service.",
+      img: "/chimneycleaning.jpg",
     },
   ],
 };
