@@ -30,7 +30,7 @@ export default function Home() {
       </div>
 
       {/* Contact Info Container - outside main */}
-      <div className="my-8 mx-4 bg-gray-50 rounded-2xl shadow-lg p-6 sm:p-8">
+      <div className="my-8 mx-4 bg-gray-50 rounded-2xl shadow-lg p-6 sm:p-8 animate-fadeIn">
         <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">
           Get in Touch
         </h3>

@@ -16,20 +16,6 @@ export default function Footer() {
           </p>
 
           {/* Navigation Links */}
-          <nav className="flex space-x-6 text-sm font-medium">
-            <Link
-              to="/about"
-              className="hover:text-blue-400 transition-colors duration-200"
-            >
-              About Us
-            </Link>
-            <Link
-              to="/contact"
-              className="hover:text-blue-400 transition-colors duration-200"
-            >
-              Contact
-            </Link>
-          </nav>
         </div>
 
         {/* Divider */}
