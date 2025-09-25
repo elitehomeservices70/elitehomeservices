@@ -20,6 +20,6 @@ body::before {
   z-index: -1;
 }
 .text-outline {
-  /* -webkit-text-stroke: 0.2px white; */
-  color: rgb(0, 0, 0); /* fill color */
+  -webkit-text-stroke: 0.2px white;
+  color: rgb(14, 20, 64); /* fill color */
 }

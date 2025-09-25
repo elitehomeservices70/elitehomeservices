@@ -10,7 +10,7 @@ export default function Footer() {
           <p className="text-center md:text-left transition-transform hover:scale-105">
             © {new Date().getFullYear()}{" "}
             <span className="text-blue-400 font-semibold">
-              Elite Home Services
+              Elite Home Services Experts
             </span>{" "}
             — All Rights Reserved
           </p>
@@ -20,29 +20,6 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-gray-700 my-6"></div>
-
-        {/* Contact Info */}
-        <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-4">
-          {/* Phone */}
-          <div className="flex items-center bg-gray-800 px-4 py-2 rounded-xl shadow-md w-full sm:w-auto">
-            <div className="bg-green-600 p-2 rounded-full mr-3 flex-shrink-0">
-              <i className="fas fa-phone text-green-100 text-lg"></i>
-            </div>
-            <span className="text-gray-300 text-sm sm:text-base">
-              (555) 123-4567
-            </span>
-          </div>
-
-          {/* Email */}
-          <div className="flex items-center bg-gray-800 px-4 py-2 rounded-xl shadow-md w-full sm:w-auto">
-            <div className="bg-red-600 p-2 rounded-full mr-3 flex-shrink-0">
-              <i className="fas fa-envelope text-white text-lg"></i>
-            </div>
-            <span className="text-gray-300 text-sm sm:text-base break-words">
-              elitehomeservices70@gmail.com
-            </span>
-          </div>
-        </div>
       </div>
     </footer>
   );

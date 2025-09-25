@@ -32,7 +32,7 @@ export default function ServiceDetails() {
                 <img
                   src={section.img}
                   alt="Service"
-                  className="w-full h-96 object-cover"
+                  className="w-full h-auto max-h-[70vh] object-contain md:object-cover"
                 />
               </motion.div>
             );
@@ -93,12 +93,12 @@ export default function ServiceDetails() {
                 whileInView={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
                 viewport={{ once: true }}
-                className="md:w-1/3 rounded-3xl overflow-hidden m-2 h-64 md:h-auto"
+                className="md:w-1/3 rounded-3xl overflow-hidden m-2"
               >
                 <img
                   src={section.img}
                   alt={section.title || "Service"}
-                  className="w-full h-full object-cover"
+                  className="w-full h-auto max-h-[70vh] object-contain md:object-cover"
                 />
               </motion.div>
             </div>
