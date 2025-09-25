@@ -8,7 +8,7 @@ export default function Home() {
       {/* Main container (intro + hero) */}
       <div className="my-6 bg-white/80 backdrop-blur-md shadow-2xl rounded-2xl p-8 mx-4">
         <PageWrapper>
-          <h2 className="text-4xl sm:text-5xl font-bold mb-8 text-blue-900 animate-fadeIn text-center">
+          <h2 className="text-4xl sm:text-5xl font-bold mb-8 text-blue-900 animate-fadeIn text-center text-uc">
             Welcome to Elite Home Services Experts
           </h2>
 

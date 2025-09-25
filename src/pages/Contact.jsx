@@ -99,7 +99,7 @@ export default function Contact() {
                 <i className="fas fa-envelope text-white text-xl"></i>
               </div>
               <span className="text-gray-800 text-base sm:text-lg font-semibold break-all text-left">
-                elitehomeservices70@gmail.com
+                elitehomeservicesexperts@gmail.com
               </span>
             </a>
           </div>
