@@ -20,7 +20,7 @@ export default function Services() {
               className="h-48 w-full object-cover"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
+              <h3 className="text-xl font-semibold mb-2 text-uc">{service.title}</h3>
               <Link
                 to={`/services/${service.id}`}
                 className="inline-block mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
