@@ -92,14 +92,14 @@ export default function Contact() {
 
             {/* Email */}
             <a
-              href="mailto:elitehomeservices70@gmail.com"
+              href="mailto:elitehomeservicesexperts@gmail.com"
               className="flex items-center bg-white px-6 py-4 rounded-xl shadow-md w-full sm:w-auto hover:shadow-lg transition duration-300"
             >
               <div className="bg-red-600 p-3 rounded-full mr-4 flex-shrink-0">
                 <i className="fas fa-envelope text-white text-xl"></i>
               </div>
               <span className="text-gray-800 text-base sm:text-lg font-semibold break-all text-left">
-                <a href="mailto:elitehomeservicesexperts@gmail.com">Mail Us</a>
+                elitehomeservicesexperts@gmail.com
               </span>
             </a>
           </div>
