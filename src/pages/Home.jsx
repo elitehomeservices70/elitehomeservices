@@ -9,7 +9,7 @@ export default function Home() {
       <div className="my-6 bg-white/80 backdrop-blur-md shadow-2xl rounded-2xl p-8 mx-4">
         <PageWrapper>
           <h2 className="text-4xl sm:text-5xl font-bold mb-8 text-blue-900 animate-fadeIn text-center text-uc">
-            Welcome to Elite Home Services Experts
+            WELCOME TO ELITE HOME SERVICES EXPERTS
           </h2>
 
           <p className="text-gray-800 text-base sm:text-lg font-medium max-w-3xl mx-auto mb-12 text-center leading-relaxed">
