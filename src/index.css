@@ -23,3 +23,7 @@ body::before {
   -webkit-text-stroke: 0.2px white;
   color: rgb(14, 20, 64); /* fill color */
 }
+
+.text-uc{
+  text-transform: uppercase;
+}

@@ -4,7 +4,7 @@ import serviceListData from "../data/serviceListData";
 export default function Services() {
   return (
     <main className="content p-10 animate-fadeIn">
-      <h2 className=" text-outline text-4xl font-bold mb-10 text-center ">
+      <h2 className=" text-outline text-4xl font-bold mb-10 text-center text-uc ">
         Our Services
       </h2>
 
