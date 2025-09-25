@@ -30,7 +30,7 @@ export default function Contact() {
     <>
       <main className="flex justify-center items-center py-16 mx-4 animate-fadeIn">
         <div className="w-full max-w-xl bg-white/80 backdrop-blur-md shadow-xl rounded-2xl p-8">
-          <h2 className="text-3xl text-blue-900 font-bold mb-4 text-center">
+          <h2 className="text-3xl text-blue-900 font-bold mb-4 text-center text-uc">
             Contact Us
           </h2>
           <p className="m-6 text-center text-gray-700">

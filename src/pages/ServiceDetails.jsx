@@ -8,7 +8,7 @@ export default function ServiceDetails() {
 
   return (
     <main className="content">
-      <h2 className="text-4xl text-outline font-bold m-6 text-center uppercase">
+      <h2 className="text-4xl text-outline font-bold m-6 text-center uppercase text-uc">
         {id.replace(/_/g, " ")}
       </h2>
 

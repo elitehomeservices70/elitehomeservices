@@ -7,7 +7,7 @@ export default function About() {
       {/* About Section */}
       <main className="flex justify-center items-center px-5 py-16">
         <div className="w-full max-w-3xl bg-white/90 backdrop-blur-md shadow-xl rounded-2xl p-8 animate-fadeIn text-center">
-          <h2 className="text-3xl text-blue-900 font-bold mb-6 text-center">
+          <h2 className="text-3xl text-blue-900 font-bold mb-6 text-center text-uc">
             ABOUT US
           </h2>
           <p className="text-gray-700 mb-6 text-justify leading-relaxed animate-fadeIn">
