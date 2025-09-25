@@ -79,14 +79,14 @@ export default function Contact() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             {/* Phone */}
             <a
-              href="tel:5551234567"
+              href="tel:732-694-4115"
               className="flex items-center bg-white px-6 py-4 rounded-xl shadow-md w-full sm:w-auto hover:shadow-lg transition duration-300"
             >
               <div className="bg-green-600 p-3 rounded-full mr-4 flex-shrink-0">
                 <i className="fas fa-phone text-white text-lg sm:text-xl"></i>
               </div>
               <span className="text-gray-800 text-base sm:text-lg font-semibold">
-                7326944115
+                732-694-4115
               </span>
             </a>
 
