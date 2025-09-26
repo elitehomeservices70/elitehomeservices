@@ -73,7 +73,7 @@ export default function Contact() {
       {/* Contact Section */}
       <section className="flex justify-center px-5 mb-12 animate-fadeIn">
         <div className="w-full max-w-xl bg-white/80 backdrop-blur-md shadow-xl rounded-2xl p-8">
-          <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">
+          <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center text-uc">
             Get in Touch
           </h3>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
